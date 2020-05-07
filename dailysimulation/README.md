@@ -3,7 +3,7 @@
 ## How it runs
 The daily forecast runs using the distributed cron.
 
-Scripts by CESGA (http://trafair.eu/)
+Scripts by CESGA (https://www.cesga.es/) for TRAFAIR project (http://trafair.eu/)
 
 ```
 crontab -l
