@@ -1,0 +1,17 @@
+100      !Particlenumber
+3600      !Dispersion time
+0      !steady state=1,single case=0
+4      !Meteorology: inputzr.dat=0,meteo.all=1,elimaeki.prn=2,SONIC.dat=3,meteopgt.all=4
+1      !Receptor points: Yes=1
+0.2      !Surface Roughness in [m]
+47      !Latitude
+N      !Meandering Effect Off=J/On=N
+NOx      !Pollutant: NOx,CO,PM,HC
+3.5,      !Horizontal slices [m] seperated by a comma (number of slices has to be defined in GRAL.geb!)
+3      !vertical grid spacing in [m]
+1      !Start calculation with weather number...
+2,15      !How to take buildings into account? 1=simple mass conservation, 2=mass conservation with Poisson equation + advection, Factor for prognostic sub domains
+0      !Stream Output for SOUNDPLAN 1=activated 0=standard ASCII output
+compressed      ! write compressed output files
+NoKeyStroke          ! do not wait for a keystroke when exiting GRAL
+ASCiiResults 1      ! write additional ASCii result files
