@@ -1,9 +1,12 @@
 # Santiago Daily Forecast
 
-## How it runs
-The daily forecast runs using the distributed cron.
+The daily simulation is executed in CESGA's HPC infraestructure FinisTerrae II (https://www.cesga.es/en/infrastructures/computing/)
+
 
 Scripts by CESGA (https://www.cesga.es/) for TRAFAIR project (http://trafair.eu/)
+
+## How it runs
+The daily forecast runs using the distributed cron.
 
 ```
 crontab -l
